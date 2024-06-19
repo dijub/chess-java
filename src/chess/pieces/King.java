@@ -17,9 +17,9 @@ public class King extends ChessPiece {
     public String toString() {
         if (getColor() == Color.WHITE) {
 
-            return "♔";
-        } else {
             return "♚";
+        } else {
+            return "♔";
         }
     }
 
